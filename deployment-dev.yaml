@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: cithit/YOURNAME:latest          #<------change this
+        image: cithit/shwanaf:latest         
         ports:
         - containerPort: 80
 ---

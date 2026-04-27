@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: cithit/YOURNAME:latest          #<------change this
+        image: cithit/shwanaf:latest          
         ports:
         - containerPort: 80
 ---
@@ -41,7 +41,7 @@ metadata:
   name: prod-service
 spec:
   type: LoadBalancer
-  loadBalancerIP: 10.48.XXX.XXX              #<------change this to your prod IP
+  loadBalancerIP: 10.48.228.120             
   ports:
   - protocol: TCP
     port: 80
